@@ -1,0 +1,173 @@
+/* Grund-Container */
+#fediverse-comments-area {
+    color: #eee;
+    max-width: 900px;
+    margin: 2rem auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+/* Beitrags-Statistik direkt unter dem Artikel */
+.fedi-post-stats {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 1.5rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+    font-size: 1rem;
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.fedi-post-stats span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Interaktions-Box */
+.fedi-interaction-box {
+    background: #252525;
+    border: 1px solid #444;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border-left: 4px solid #ff69b4;
+}
+
+.fedi-interaction-box h4 {
+    margin-top: 0; color: #fff;
+    margin-bottom: 10px;
+}
+
+.fedi-interaction-box p {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.fedi-interaction-box strong {
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Eingabefelder und Buttons */
+.fedi-helper-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.fedi-input {
+    background: #1a1a1a;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 4px;
+    flex-grow: 1;
+    min-width: 200px;
+    font-size: 0.9rem;
+}
+
+.fedi-button {
+    background: #ff69b4;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.fedi-button:hover {
+    background: #ff1493;
+}
+
+.fedi-copy-row {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+/* Der erweiterte Datenschutz-Hinweis */
+.fedi-privacy-notice {
+    font-size: 0.8rem;
+    color: #999;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+/* Kommentare & Design */
+.fedi-comment {
+    border-left: 2px solid #444;
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.fedi-comment.top-level {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid #333;
+    padding-top: 1.5rem;
+}
+
+.fedi-user-icon {
+    width: 32px;
+    height: 32px;
+    background: #444;
+    color: #888;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.fedi-author {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.fedi-author:hover {
+    text-decoration: underline;
+}
+
+.fedi-date {
+    font-size: 0.75rem;
+    color: #888;
+    text-decoration: none;
+}
+
+.fedi-body {
+    color: #ddd;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin-top: 5px;
+}
+
+.fedi-body a {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+/* Statistik für einzelne Kommentare */
+.fedi-comment-stats {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #888;
+}
