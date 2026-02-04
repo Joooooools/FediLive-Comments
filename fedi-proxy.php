@@ -1,7 +1,7 @@
 <?php
 /*
  * Name: FediLive Comments (Proxy)
- * Licence: AGPL
+ * Licence: MIT
  * Author: Jools <jools@friendica.de>
  * Version: 1.0
  * Description: A privacy-first API proxy to fetch live Fediverse comments for static sites without data retention.
