@@ -22,6 +22,7 @@ Die Datei `fedi-proxy.php` in das Hauptverzeichnis hochladen (wo z.B. die index.
 
 
 **2. Frontend-Einbindung (Widget)**
+
 ***Entweder (Einfach):***
 Inhalt der `fedi-comments-widget.html` kopieren. Diesen Code in das Website-Template an der Stelle einfügen, wo die Kommentare erscheinen sollen. Publii-Nutzer: Den Inhalt von fedi-comments-widget.html unter
 "Werkzeuge & Plugins" -> "Benutzerdefiniertes HTML" -> "Kommentare" einfügen.
@@ -63,6 +64,7 @@ Nun den Blogbeitrag erneut speichern (in Publii danach auf "Webseite synchronisi
 
 
 **2. Frontend Integration (Widget)**
+
 ***Option A (Simple):***
 Copy the content of `fedi-comments-widget.html`. Paste this code into your template where the comments should appear. Publii Users: Paste it under "Tools & Plugins" -> "Custom HTML" -> "Comments".
 
