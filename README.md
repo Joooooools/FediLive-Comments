@@ -1,3 +1,9 @@
+> **Hinweis / Notice:** Dieses Repository ist nach Forgejo umgezogen und wird auf GitHub nicht mehr gepflegt.  
+> This repository has moved to Forgejo and is no longer maintained on GitHub.  
+>  
+> **Aktuelle Version / Current version:**  
+> https://git.friendica.dev/Jools/fedilive-comments
+
 #  FediLive Comments
 
 Mit diesem Script lassen sich Kommentare aus Friendica direkt in den eigenen Blog integrieren. Dabei werden bewusst keine Daten gespeichert, die Kommentare werden bei jedem Aufruf der Webseite erneut abgerufen.
